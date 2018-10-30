@@ -1,0 +1,355 @@
+{
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "9af92e641f44431897f5cf6896b3ae0c"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "8509b25001a744b8b5d823f44d632093",
+                "identifiers": [
+                    [
+                        "cast",
+                        "3a4f1ab7645a7d97c84c4a33208cfcc9"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast Ultra",
+                "name": "TV",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "9af92e641f44431897f5cf6896b3ae0c"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "4632d312296f41e18e386bd0ef987ee9",
+                "identifiers": [
+                    [
+                        "cast",
+                        "12fe38cb7f743a7194f13221f5b514d1"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Soffan",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "9af92e641f44431897f5cf6896b3ae0c"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "cb769213b74e412ab9eab6c6cb3073d5",
+                "identifiers": [
+                    [
+                        "cast",
+                        "ad3a0ff0c92c1bfe6e43b481d415e6fe"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "Elliots TV",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "9af92e641f44431897f5cf6896b3ae0c"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "e05f1084ea7f49cda2f33a8317a7c380",
+                "identifiers": [
+                    [
+                        "cast",
+                        "08b8be71705f8ae0b790375fd4df05a4"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast Audio",
+                "name": "Vardagsrum",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "9af92e641f44431897f5cf6896b3ae0c"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "ca670fae9ac748bc8c4d9bd6e5c4ca04",
+                "identifiers": [
+                    [
+                        "cast",
+                        "c5f6a003a277715eed1120e8688e353e"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Sovrum h\u00f6gtalare",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "77840b15668345ca9c3178b64217050c"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:b2:f9:fe"
+                    ]
+                ],
+                "hub_device_id": null,
+                "id": "6ecd011009f04a538c0c9edbfd25dc89",
+                "identifiers": [
+                    [
+                        "hue",
+                        "001788FFFEB2F9FE"
+                    ]
+                ],
+                "manufacturer": "Signify",
+                "model": "BSB002",
+                "name": "Hue Dartanjang",
+                "sw_version": "1809121051"
+            },
+            {
+                "config_entries": [
+                    "77840b15668345ca9c3178b64217050c"
+                ],
+                "connections": [],
+                "hub_device_id": "6ecd011009f04a538c0c9edbfd25dc89",
+                "id": "7f31f350f17446cb8f8b405cdd169366",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0b:57:ff:fe:23:80:2e-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Arbetsrum spot 6",
+                "sw_version": "1.2.217"
+            },
+            {
+                "config_entries": [
+                    "77840b15668345ca9c3178b64217050c"
+                ],
+                "connections": [],
+                "hub_device_id": "6ecd011009f04a538c0c9edbfd25dc89",
+                "id": "452620836a5544959ebc50ac4e95bcab",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0b:57:ff:fe:26:aa:5c-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Arbetsrum spot 8",
+                "sw_version": "1.2.217"
+            },
+            {
+                "config_entries": [
+                    "77840b15668345ca9c3178b64217050c"
+                ],
+                "connections": [],
+                "hub_device_id": "6ecd011009f04a538c0c9edbfd25dc89",
+                "id": "56010e9299624a7085939f3e716c27d5",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0b:57:ff:fe:26:90:ec-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Arbetsrum spot 3",
+                "sw_version": "1.2.217"
+            },
+            {
+                "config_entries": [
+                    "77840b15668345ca9c3178b64217050c"
+                ],
+                "connections": [],
+                "hub_device_id": "6ecd011009f04a538c0c9edbfd25dc89",
+                "id": "254525ba5b784f3582b6f347061d7c3d",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0b:57:ff:fe:25:0e:c7-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Arbetsrum spot 2",
+                "sw_version": "1.2.217"
+            },
+            {
+                "config_entries": [
+                    "77840b15668345ca9c3178b64217050c"
+                ],
+                "connections": [],
+                "hub_device_id": "6ecd011009f04a538c0c9edbfd25dc89",
+                "id": "568c9cdeb78e46e7a2807996d8ffd3a0",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0b:57:ff:fe:15:33:e9-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Arbetsrum spot 5",
+                "sw_version": "1.2.217"
+            },
+            {
+                "config_entries": [
+                    "77840b15668345ca9c3178b64217050c"
+                ],
+                "connections": [],
+                "hub_device_id": "6ecd011009f04a538c0c9edbfd25dc89",
+                "id": "8c481ca116fa41d68f39fe6d727e6ce3",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0b:57:ff:fe:11:52:5e-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Arbetsrum spot 7",
+                "sw_version": "1.2.217"
+            },
+            {
+                "config_entries": [
+                    "77840b15668345ca9c3178b64217050c"
+                ],
+                "connections": [],
+                "hub_device_id": "6ecd011009f04a538c0c9edbfd25dc89",
+                "id": "d83d62698b7e41ee9e2caf0a964333e9",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0b:57:ff:fe:15:30:cd-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Arbetsrum spot 4",
+                "sw_version": "1.2.217"
+            },
+            {
+                "config_entries": [
+                    "77840b15668345ca9c3178b64217050c"
+                ],
+                "connections": [],
+                "hub_device_id": "6ecd011009f04a538c0c9edbfd25dc89",
+                "id": "1bb28aba60394155aae50f00909348ec",
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:0b:57:ff:fe:30:60:02-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Arbetsrum spot 1",
+                "sw_version": "1.2.217"
+            },
+            {
+                "config_entries": [
+                    "012b69b62b3142fdb9c655860460f84a"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "3e532d1520bd404e9a413da2e9fa91dd",
+                "identifiers": [
+                    [
+                        "tradfri",
+                        "7e2151520440003a"
+                    ]
+                ],
+                "manufacturer": "IKEA",
+                "model": "E1526",
+                "name": "Gateway",
+                "sw_version": "1.4.15"
+            },
+            {
+                "config_entries": [
+                    "9af92e641f44431897f5cf6896b3ae0c"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "651562ecbacf45adbd33d7c00b6d17cb",
+                "identifiers": [
+                    [
+                        "cast",
+                        "6d1ed5e6b0e1f0d5f5a8dc3c1e903c5c"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast Audio",
+                "name": "Elliots h\u00f6gtalare",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "9af92e641f44431897f5cf6896b3ae0c"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "695804f2b2d146e799719db35b1faa3b",
+                "identifiers": [
+                    [
+                        "cast",
+                        "454156d21d98495406c39cd8d1a00563"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Elliots rum",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "9af92e641f44431897f5cf6896b3ae0c"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "a3d6e5ccf2f44ba7afaefe5ca468fb13",
+                "identifiers": [
+                    [
+                        "cast",
+                        "b2e4698561c0b063e1d3c56a2e65b44b"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "K\u00f6k",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "77840b15668345ca9c3178b64217050c"
+                ],
+                "connections": [],
+                "hub_device_id": "6ecd011009f04a538c0c9edbfd25dc89",
+                "id": "9ef5a4e0cd3c495da1557adc4efc2d8b",
+                "identifiers": [
+                    [
+                        "hue",
+                        "90:fd:9f:ff:fe:86:ec:ae-01"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "Color temperature light",
+                "name": "Elliots tak 2",
+                "sw_version": "1.2.217"
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

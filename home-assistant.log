@@ -1,0 +1,129 @@
+2018-10-30 11:57:15 ERROR (MainThread) [homeassistant.components.upnp] Unable to create upnp-device
+2018-10-30 11:57:15 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry OnHub for upnp
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/homeassistant/config_entries.py", line 243, in async_setup
+    result = await component.async_setup_entry(hass, self)
+  File "/usr/local/lib/python3.6/site-packages/homeassistant/components/upnp/__init__.py", line 139, in async_setup_entry
+    local_ip = hass.data[DOMAIN]['local_ip']
+KeyError: 'local_ip'
+2018-10-30 11:57:18 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 11:57:18 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 2 seconds
+2018-10-30 11:57:21 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 11:57:21 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 4 seconds
+2018-10-30 11:57:29 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 11:57:29 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 8 seconds
+2018-10-30 11:57:41 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 11:57:41 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 16 seconds
+2018-10-30 11:57:45 ERROR (MainThread) [homeassistant.components.media_player] Error while setting up platform plex
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/connection.py", line 79, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/connection.py", line 69, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] Host is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7fa940964080>: Failed to establish a new connection: [Errno 113] Host is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.0.19', port=32400): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa940964080>: Failed to establish a new connection: [Errno 113] Host is unreachable',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/homeassistant/helpers/entity_platform.py", line 128, in _async_setup_platform
+    SLOW_SETUP_MAX_WAIT, loop=hass.loop)
+  File "/usr/local/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/usr/local/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.6/site-packages/homeassistant/components/media_player/plex.py", line 94, in setup_platform
+    hass, config, add_entities_callback
+  File "/usr/local/lib/python3.6/site-packages/homeassistant/components/media_player/plex.py", line 113, in setup_plexserver
+    token, cert_session
+  File "/usr/local/lib/python3.6/site-packages/plexapi/server.py", line 102, in __init__
+    data = self.query(self.key, timeout=timeout)
+  File "/usr/local/lib/python3.6/site-packages/plexapi/server.py", line 341, in query
+    response = method(url, headers=headers, timeout=timeout, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 525, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='192.168.0.19', port=32400): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa940964080>: Failed to establish a new connection: [Errno 113] Host is unreachable',))
+2018-10-30 11:58:01 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 11:58:01 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 32 seconds
+2018-10-30 11:58:37 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 11:58:37 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 64 seconds
+2018-10-30 11:59:45 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 11:59:45 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 128 seconds
+2018-10-30 12:01:57 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 12:01:57 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 256 seconds
+2018-10-30 12:03:00 WARNING (MainThread) [homeassistant.components.hue] Connected to Hue at 192.168.0.28 but not registered.
+2018-10-30 12:03:00 WARNING (MainThread) [homeassistant.components.hue] Connected to Hue at 192.168.0.28 but not registered.
+2018-10-30 12:04:57 WARNING (MainThread) [homeassistant.components.hue] Connected to Hue at 192.168.0.28 but not registered.
+2018-10-30 12:06:17 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 12:06:17 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 512 seconds
+2018-10-30 12:14:53 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 12:14:53 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 1024 seconds
+2018-10-30 12:32:01 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 12:32:01 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 2048 seconds
+2018-10-30 12:57:15 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None
+2018-10-30 12:57:26 ERROR (MainThread) [homeassistant.components.sensor.yr] Retrying in 17 minutes: 
+2018-10-30 13:01:52 WARNING (SyncWorker_13) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/sensors/list?includeValues=1&includeScale=1&includeIgnored=0 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa940989390>: Failed to establish a new connection: [Errno -3] Try again',))
+2018-10-30 13:01:52 WARNING (SyncWorker_13) [homeassistant.components.tellduslive] Failed request
+2018-10-30 13:06:13 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 13:06:13 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 4096 seconds
+2018-10-30 13:18:49 WARNING (SyncWorker_12) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/sensors/list?includeValues=1&includeScale=1&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa9405691d0>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 13:18:49 WARNING (SyncWorker_12) [homeassistant.components.tellduslive] Failed request
+2018-10-30 13:21:01 WARNING (SyncWorker_16) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/devices/list?supportedMethods=915&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa9405284e0>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 13:21:01 WARNING (SyncWorker_16) [homeassistant.components.tellduslive] Failed request
+2018-10-30 13:55:29 WARNING (SyncWorker_1) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/sensors/list?includeValues=1&includeScale=1&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa9427ab358>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 13:55:29 WARNING (SyncWorker_1) [homeassistant.components.tellduslive] Failed request
+2018-10-30 14:08:02 WARNING (SyncWorker_17) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/devices/list?supportedMethods=915&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa9426e8978>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 14:08:03 WARNING (SyncWorker_17) [homeassistant.components.tellduslive] Failed request
+2018-10-30 14:09:14 WARNING (SyncWorker_15) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/devices/list?supportedMethods=915&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa94094a048>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 14:09:16 WARNING (SyncWorker_15) [homeassistant.components.tellduslive] Failed request
+2018-10-30 14:14:33 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195
+2018-10-30 14:14:33 ERROR (MainThread) [homeassistant.components.hue] Error connecting to the Hue bridge at 192.168.0.195. Retrying in 8192 seconds
+2018-10-30 14:20:54 WARNING (SyncWorker_10) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/devices/list?supportedMethods=915&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa9427b75c0>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 14:20:54 WARNING (SyncWorker_10) [homeassistant.components.tellduslive] Failed request
+2018-10-30 14:22:05 WARNING (SyncWorker_15) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/devices/list?supportedMethods=915&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa93f2e42e8>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 14:22:05 WARNING (SyncWorker_15) [homeassistant.components.tellduslive] Failed request
+2018-10-30 14:26:24 WARNING (SyncWorker_11) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/devices/list?supportedMethods=915&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa93f2a8390>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 14:26:26 WARNING (SyncWorker_11) [homeassistant.components.tellduslive] Failed request
+2018-10-30 14:34:49 WARNING (SyncWorker_0) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/devices/list?supportedMethods=915&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa9426da748>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 14:34:49 WARNING (SyncWorker_0) [homeassistant.components.tellduslive] Failed request
+2018-10-30 14:46:24 WARNING (SyncWorker_13) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/devices/list?supportedMethods=915&includeIgnored=0 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa94cc648d0>: Failed to establish a new connection: [Errno -3] Try again',))
+2018-10-30 14:46:24 WARNING (SyncWorker_13) [homeassistant.components.tellduslive] Failed request
+2018-10-30 14:47:35 WARNING (SyncWorker_16) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/sensors/list?includeValues=1&includeScale=1&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa93f3136a0>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 14:47:35 WARNING (SyncWorker_16) [homeassistant.components.tellduslive] Failed request
+2018-10-30 14:51:55 WARNING (SyncWorker_5) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/devices/list?supportedMethods=915&includeIgnored=0 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa94057de10>, 'Connection to api.telldus.com timed out. (connect timeout=10)'))
+2018-10-30 14:51:55 WARNING (SyncWorker_5) [homeassistant.components.tellduslive] Failed request
+2018-10-30 14:59:17 WARNING (SyncWorker_2) [tellduslive] Failed request: HTTPSConnectionPool(host='api.telldus.com', port=443): Max retries exceeded with url: /json/devices/list?supportedMethods=915&includeIgnored=0 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa940569eb8>: Failed to establish a new connection: [Errno -3] Try again',))
+2018-10-30 14:59:17 WARNING (SyncWorker_2) [homeassistant.components.tellduslive] Failed request

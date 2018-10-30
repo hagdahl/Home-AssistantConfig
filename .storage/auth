@@ -1,0 +1,87 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "hagdahl"
+                },
+                "id": "f420857c9d2a4d9688815bae8dd0a61c",
+                "user_id": "7a51e183b58743c2a73669f8396d40dd"
+            }
+        ],
+        "groups": [
+            {
+                "id": "5b0721794c89448aa26c1dfc66baafa5",
+                "name": "All Access"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2018-10-17T20:41:11.595329+00:00",
+                "id": "03c8ea6fbab84cbbafbf42a855808e0e",
+                "jwt_key": "b25d103e8bc0f87541c52e1eee391dff844a06c01edbb7faab18b4a0fbeeed48ce8c057ec10313c6077b72c402c92b5855e9a2de369df99876fc98a505dc8843",
+                "last_used_at": "2018-10-30T15:52:31.896189+00:00",
+                "last_used_ip": "172.30.32.2",
+                "token": "167a3d2fe5f2ef8f8cdabb42c6f64182691f1cf326a0981e31d4fc3af579a3d8e3c8b5ca05213bf579512cd1d174125e51c66f36b41876eb3da238658207297a",
+                "token_type": "system",
+                "user_id": "0c6aac93d39849a4a083c26136bf23ff"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.0.88:8123/",
+                "client_name": null,
+                "created_at": "2018-10-17T20:45:42.816974+00:00",
+                "id": "6c431aace78a44b3ae7781f2da66a19e",
+                "jwt_key": "5dd86518d12341d4f81dc7d734bdef6afbe1cab67427eae70157484e5895f5eb2a4e8f888f509a975a231d754e4aa0c57dd15bb458e32870649aebaf26fbdd4d",
+                "last_used_at": "2018-10-17T21:27:45.803092+00:00",
+                "last_used_ip": "192.168.0.140",
+                "token": "6d64f95c85658435d4ce54c8f0b1999a117ffc2fd2a05bd3b25370667117df9fce38d891957954b48d213e7626b290ed776bcea4469fd7b53da0934a9d5fa9bc",
+                "token_type": "normal",
+                "user_id": "7a51e183b58743c2a73669f8396d40dd"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.0.38:8123/",
+                "client_name": null,
+                "created_at": "2018-10-30T11:53:43.376569+00:00",
+                "id": "71ddcecd068840ee9b73c135bfbf200f",
+                "jwt_key": "470c3851b51f8081e5ab39646b60ef5b284c864e20e208ad77995628c0c61247a279d7087646d87cfa307d3cb891ea4dc020905fc1caca55bca50bad4470dfe5",
+                "last_used_at": "2018-10-30T15:59:12.027199+00:00",
+                "last_used_ip": "192.168.0.27",
+                "token": "588db32277d7ba494f4f986fe24f334a12f3ebc767865f9291ba97c957c0a82a8903674b099c3408266ce6a93205aa47b3e48fed8edf07e2af279f51f061f7a3",
+                "token_type": "normal",
+                "user_id": "7a51e183b58743c2a73669f8396d40dd"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [],
+                "id": "0c6aac93d39849a4a083c26136bf23ff",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "5b0721794c89448aa26c1dfc66baafa5"
+                ],
+                "id": "7a51e183b58743c2a73669f8396d40dd",
+                "is_active": true,
+                "is_owner": true,
+                "name": "David Hagdahl",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

@@ -1,0 +1,179 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.chrome",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "bvf60487rnjo4ozgdgnzrn5x"
+            },
+            {
+                "config_entry_id": "9af92e641f44431897f5cf6896b3ae0c",
+                "device_id": "8509b25001a744b8b5d823f44d632093",
+                "disabled_by": null,
+                "entity_id": "media_player.living_room_tv",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "3a4f1ab7-645a-7d97-c84c-4a33208cfcc9"
+            },
+            {
+                "config_entry_id": "9af92e641f44431897f5cf6896b3ae0c",
+                "device_id": "4632d312296f41e18e386bd0ef987ee9",
+                "disabled_by": null,
+                "entity_id": "media_player.kitchen_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "12fe38cb-7f74-3a71-94f1-3221f5b514d1"
+            },
+            {
+                "config_entry_id": "9af92e641f44431897f5cf6896b3ae0c",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.apartment",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "42f66626-216e-47b2-8dec-7a0f8e47b7d2"
+            },
+            {
+                "config_entry_id": "9af92e641f44431897f5cf6896b3ae0c",
+                "device_id": "cb769213b74e412ab9eab6c6cb3073d5",
+                "disabled_by": null,
+                "entity_id": "media_player.elliots_tv",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "ad3a0ff0-c92c-1bfe-6e43-b481d415e6fe"
+            },
+            {
+                "config_entry_id": "9af92e641f44431897f5cf6896b3ae0c",
+                "device_id": "e05f1084ea7f49cda2f33a8317a7c380",
+                "disabled_by": null,
+                "entity_id": "media_player.living_room_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "08b8be71-705f-8ae0-b790-375fd4df05a4"
+            },
+            {
+                "config_entry_id": "9af92e641f44431897f5cf6896b3ae0c",
+                "device_id": "ca670fae9ac748bc8c4d9bd6e5c4ca04",
+                "disabled_by": null,
+                "entity_id": "media_player.sovrum_hogtalare",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "c5f6a003-a277-715e-ed11-20e8688e353e"
+            },
+            {
+                "config_entry_id": "77840b15668345ca9c3178b64217050c",
+                "device_id": "7f31f350f17446cb8f8b405cdd169366",
+                "disabled_by": null,
+                "entity_id": "light.arbetsrum_spot_6",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:0b:57:ff:fe:23:80:2e-01"
+            },
+            {
+                "config_entry_id": "77840b15668345ca9c3178b64217050c",
+                "device_id": "452620836a5544959ebc50ac4e95bcab",
+                "disabled_by": null,
+                "entity_id": "light.arbetsrum_spot_8",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:0b:57:ff:fe:26:aa:5c-01"
+            },
+            {
+                "config_entry_id": "77840b15668345ca9c3178b64217050c",
+                "device_id": "56010e9299624a7085939f3e716c27d5",
+                "disabled_by": null,
+                "entity_id": "light.arbetsrum_spot_3",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:0b:57:ff:fe:26:90:ec-01"
+            },
+            {
+                "config_entry_id": "77840b15668345ca9c3178b64217050c",
+                "device_id": "254525ba5b784f3582b6f347061d7c3d",
+                "disabled_by": null,
+                "entity_id": "light.arbetsrum_spot_2",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:0b:57:ff:fe:25:0e:c7-01"
+            },
+            {
+                "config_entry_id": "77840b15668345ca9c3178b64217050c",
+                "device_id": "568c9cdeb78e46e7a2807996d8ffd3a0",
+                "disabled_by": null,
+                "entity_id": "light.arbetsrum_spot_5",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:0b:57:ff:fe:15:33:e9-01"
+            },
+            {
+                "config_entry_id": "77840b15668345ca9c3178b64217050c",
+                "device_id": "8c481ca116fa41d68f39fe6d727e6ce3",
+                "disabled_by": null,
+                "entity_id": "light.arbetsrum_spot_7",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:0b:57:ff:fe:11:52:5e-01"
+            },
+            {
+                "config_entry_id": "77840b15668345ca9c3178b64217050c",
+                "device_id": "d83d62698b7e41ee9e2caf0a964333e9",
+                "disabled_by": null,
+                "entity_id": "light.arbetsrum_spot_4",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:0b:57:ff:fe:15:30:cd-01"
+            },
+            {
+                "config_entry_id": "77840b15668345ca9c3178b64217050c",
+                "device_id": "1bb28aba60394155aae50f00909348ec",
+                "disabled_by": null,
+                "entity_id": "light.arbetsrum_spot_1",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:0b:57:ff:fe:30:60:02-01"
+            },
+            {
+                "config_entry_id": "9af92e641f44431897f5cf6896b3ae0c",
+                "device_id": "651562ecbacf45adbd33d7c00b6d17cb",
+                "disabled_by": null,
+                "entity_id": "media_player.elliots_hogtalare",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "6d1ed5e6-b0e1-f0d5-f5a8-dc3c1e903c5c"
+            },
+            {
+                "config_entry_id": "9af92e641f44431897f5cf6896b3ae0c",
+                "device_id": "695804f2b2d146e799719db35b1faa3b",
+                "disabled_by": null,
+                "entity_id": "media_player.elliots_rum",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "454156d2-1d98-4954-06c3-9cd8d1a00563"
+            },
+            {
+                "config_entry_id": "9af92e641f44431897f5cf6896b3ae0c",
+                "device_id": "a3d6e5ccf2f44ba7afaefe5ca468fb13",
+                "disabled_by": null,
+                "entity_id": "media_player.kok",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "b2e46985-61c0-b063-e1d3-c56a2e65b44b"
+            },
+            {
+                "config_entry_id": "77840b15668345ca9c3178b64217050c",
+                "device_id": "9ef5a4e0cd3c495da1557adc4efc2d8b",
+                "disabled_by": null,
+                "entity_id": "light.elliots_tak_2",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "90:fd:9f:ff:fe:86:ec:ae-01"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

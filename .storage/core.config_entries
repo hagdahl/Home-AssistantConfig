@@ -1,0 +1,73 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "port_mapping": true,
+                    "sensors": false,
+                    "ssdp_description": "http://192.168.0.1:60034/rootDesc.xml",
+                    "udn": "uuid:3ddcd1d3-2380-45f5-b069-bcee7befa060"
+                },
+                "domain": "upnp",
+                "entry_id": "72e0d35cfe9041ea84329964b1dbb6d7",
+                "source": "user",
+                "title": "RT-AC68U",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "cast",
+                "entry_id": "9af92e641f44431897f5cf6896b3ae0c",
+                "source": "user",
+                "title": "Google Cast",
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "gateway_id": "7e2151520440003a",
+                    "host": "192.168.0.24",
+                    "identity": "9b898423c84048cf8439fe9b297d47d4",
+                    "import_groups": false,
+                    "key": "rtui2R633gTp0nxV"
+                },
+                "domain": "tradfri",
+                "entry_id": "012b69b62b3142fdb9c655860460f84a",
+                "source": "user",
+                "title": "192.168.0.24",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "port_mapping": true,
+                    "sensors": true,
+                    "ssdp_description": "http://192.168.0.1:5000/rootDesc.xml",
+                    "udn": "uuid:6d56cf81-1298-416c-8372-3f37244aa787"
+                },
+                "domain": "upnp",
+                "entry_id": "ba69386ee9034a73845a44212195e758",
+                "source": "discovery",
+                "title": "OnHub",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "bridge_id": "001788FFFEB2F9FE",
+                    "host": "192.168.0.28",
+                    "username": "rhsdiwwUSBmUQtu65YrnCaY5Pj8N8Cu9IlyaQVRr"
+                },
+                "domain": "hue",
+                "entry_id": "77840b15668345ca9c3178b64217050c",
+                "source": "discovery",
+                "title": "Hue Dartanjang",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}
